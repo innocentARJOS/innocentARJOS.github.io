@@ -1,13 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>我的个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yicheng Jiang (姜一成) - 个人主页</title>
+    <!-- 引入 Font Awesome 图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- 引入你的 CSS 样式文件 -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>欢迎来到我的网站！</h1>
-    <p>这是一个通过 GitHub Pages 托管的网站。</p>
+
+    <div class="container">
+        <!-- 左侧边栏 -->
+        <aside class="sidebar">
+            <img src="profile_photo.jpg" alt="Yicheng Jiang's Profile Photo" class="profile-pic"> <!-- 替换成你的头像图片路径 -->
+            <h1>Yicheng Jiang<br>姜一成</h1>
+            <p class="affiliation">Southeast University</p>
+            
+            <ul class="contact-info">
+                <li><i class="fas fa-map-marker-alt"></i> Nanjing, China</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:ycjiang@seu.edu.cn">Email</a></li> <!-- 替换成你的邮箱 -->
+                <!-- <li><i class="fas fa-link"></i> <a href="#">DBLP</a></li> 替换成你的 DBLP 链接 -->
+                <li><i class="fab fa-github"></i> <a href="https://github.com/innocentARJOS">Github</a></li> <!-- 替换成你的 GitHub 链接 -->
+                <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=9gi3SYwAAAAJ">Google Scholar</a></li> <!-- 替换成你的 Google Scholar 链接 -->
+                <li><i class="fab fa-orcid"></i> <a href="https://orcid.org/0009-0008-0492-3909">ORCID</a></li> <!-- 替换成你的 ORCID 链接 -->
+            </ul>
+        </aside>
+
+        <!-- 右侧主内容 -->
+        <main class="main-content">
+            <nav class="top-nav">
+                <a href="#home" class="active">Homepage</a>
+                <a href="#about">About Me</a>
+                <a href="#news">News</a>
+                <a href="#publications">Publications</a>
+                <a href="#honors">Honors and Awards</a>
+                <a href="#education">Educations</a>
+            </nav>
+
+            <section id="about">
+                <p>
+                    I am a Ph.D Candidate at the School of Computer Science and Engineering, Southeast University (SEU), advised by Prof.<a href="https://cse.seu.edu.cn/2019/0103/c23024a257225/page.htm">Yong Rui</a>
+                    and Prof. <a href="https://cse.seu.edu.cn/2019/0102/c23024a257021/page.htm">Xin Geng</a>.
+                    If you are interested in collaboration, feel free to get in touch.
+                </p>
+                <p>
+                    My research interests include Computer Vision, Diffusion Models and LLM.
+                </p>
+            </section>
+
+            <section id="news">
+                <h2><i class="fas fa-fire"></i> News</h2>
+                <!-- <ul>
+                    <li><strong>2024.04:</strong> 🎉🎉 One paper is accepted by IEEE SMC24 for oral presentation!</li>
+                    <li><strong>2022.12:</strong> 🎉🎉 I win the National Scholarship (1%)!</li>
+                </ul> -->
+            </section>
+
+            <section id="publications">
+                <h2><i class="fas fa-book"></i> Publications</h2>
+                <article class="publication-item">
+                    Soon~
+                    <!-- <div class="publication-image"> -->
+                        <!-- <img src="publication-image.png" alt="Architecture of the Neural Network Model"> 替换成你的论文配图 -->
+                         <!-- <div class="publication-tag">IEEE SMC</div>
+                    </div>
+                    <div class="publication-details">
+                        <h3><a href="#">Study on the Influence of Embodied Avatars on Gait Parameters in Virtual Environments and Real World</a></h3>
+                        <p class="authors"><strong>Tianyi Zhou</strong>, Ding Ding, Shengyu Wang, Chuhan Shi, Xiangyu Xu</p>
+                        <p><a href="#" class="project-page-link">Project Page</a></p>
+                        <ul>
+                            <li>We developed a virtual environment simulation and gait detection system using VR and motion capture technology. This system can rapidly simulate various physical worlds in VEs and collect participants’ characteristics to create complete avatars that closely resemble the participants.</li>
+                            <li>To increase the sense of embodiment, we customize each participant with two complete system that look like them but differ in age.</li>
+                        </ul>
+                    </div> -->
+                </article>
+            </section>
+
+            <section id="honors">
+                <h2><i class="fas fa-trophy"></i> Honors and Awards</h2>
+                <ul class="honors-list">
+                    <li>2024.11 Zhishan Scholarship in Southeast University </li>
+                    <li>2024.05 Huawei Scholarship in Southeast University  </li>
+                    <li>2023.11 Taihu Scholarship of Future College in Southeast University</li>
+                    
+                    <!-- 可根据需要继续添加其他奖项 -->
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2><i class="fas fa-university"></i> Educations</h2>
+                <ul class="education-list">
+                    <li>
+                        <strong>Ph.D. Candidate</strong>, School of Computer Science and Engineering, Southeast University, Nanjing, China<br>
+                        2025 - Present
+                    </li>
+                    <li>
+                        <strong>B.E.</strong>, Chien-Shiung Wu College, Southeast University, Nanjing, China<br>
+                        2021 - 2025
+                    </li>
+                </ul>
+            </section>
+
+
+        </main>
+    </div>
+
 </body>
 </html>
-
-
